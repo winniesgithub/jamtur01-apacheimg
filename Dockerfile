@@ -8,3 +8,5 @@
  EXPOSE 80
  ENTRYPOINT ["/usr/sbin/apache2"]
  CMD ["-D","FOREGROUND"]
+ RUN yum list
+ 
